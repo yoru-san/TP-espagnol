@@ -3,3 +3,15 @@ body {
   background-image: url(images/bg.png);
   text-align: center;
 }
+
+.gauche {
+  float: left;
+}
+
+.droite {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
