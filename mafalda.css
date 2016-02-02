@@ -1,15 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
 body {
   font-style: 12px;
   background-image: url(images/bg.png);
   text-align: center;
 }
 
-.gauche {
-  float: left;
+h1, a {
+  font-family: 'Titillium Web', sans-serif;
 }
 
-.droite {
+
+.photo-gauche {
+  float: left;
+  margin-right: 10px;
+}
+
+.photo-droite {
   float: right;
+  margin-left: 10px;
 }
 
 .clear {
@@ -21,7 +31,7 @@ body {
 }
 
 .description {
-  /*width: 600px;*/
+  font-family: 'Montserrat', sans-serif;
 }
 
 .texte-gauche {
@@ -36,4 +46,65 @@ body {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#pagination-clean {
+  width: 300px;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: red;
+}
+ul{ border:0; margin:0; padding:0; }
+
+#pagination-clean li
+{
+    border:0;
+    margin:0;
+    padding:0;
+    font-size:11px;
+    list-style:none;
+}
+
+#pagination-clean li, #pagination-clean a
+{
+    border:solid 1px #DEDEDE
+    margin-right:2px;
+}
+
+#pagination-clean .previous-off, #pagination-clean .next-off
+{
+    color:#888888
+    display:block;
+    float:left;
+    font-weight:bold;
+    padding:3px 4px;
+}
+
+#pagination-clean .next a, #pagination-clean .previous a
+{
+    font-weight:bold;
+    border:solid 1px #FFFFFF;
+}
+
+#pagination-clean .active
+{
+    color:#00000
+    font-weight:bold;
+    display:block;
+    float:left;
+    padding:4px 6px;
+}
+
+#pagination-clean a:link, #pagination-clean a:visited
+{
+    color:#0033CC
+    display:block;
+    float:left;
+    padding:3px 6px;
+    text-decoration:none;
+}
+
+#pagination-clean a:hover
+{
+    text-decoration:none;
 }
