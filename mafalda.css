@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(https://fonts.googleapis.com/css?family=Patua+One);
 
 body {
   font-style: 12px;
@@ -9,8 +10,16 @@ body {
 
 h1, a {
   font-family: 'Titillium Web', sans-serif;
+  font-style: 12px;
 }
 
+h1 {
+  color:#880000;
+}
+
+#info {
+  font-family: 'Patua One';
+}
 
 .photo-gauche {
   float: left;
